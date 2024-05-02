@@ -1,0 +1,130 @@
+/* App.css */
+
+/* Import Google Font - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Apply Roboto font to the entire app */
+  background-color: #121212; /* Dark background color */
+  color: #fff; /* Text color */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000; /* Navbar background color */
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Navbar links - hover */
+.navbar-nav .nav-link:hover {
+  color: #00ff00; /* Neon green */
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00,
+    0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00,
+    0 0 150px #00ff00;
+}
+
+/* Other components */
+/* Add styles for other components here */
+
+/* admin.jsx */
+.container.admin {
+    text-align: center;
+  }
+  
+  /* quizstepper.jsx */
+  .quiz-stepper {
+    padding: 20px;
+  }
+  
+  .quiz-stepper .progress {
+    margin-bottom: 20px;
+  }
+  
+  /* quizresult.jsx */
+  .quiz-result {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .quiz-result button {
+    margin-top: 20px;
+  }
+  
+  /* quiz.jsx */
+  .quiz {
+    padding: 20px;
+  }
+  
+  .quiz h3 {
+    color: #17a2b8;
+  }
+  
+  .quiz button {
+    margin-top: 20px;
+  }
+  
+  /* getallquiz.jsx */
+  .get-all-quiz h4 {
+    color: #17a2b8;
+  }
+  
+  .get-all-quiz .btn-group {
+    margin-top: 10px;
+  }
+  
+/* admin.jsx */
+.container.admin {
+    text-align: center;
+  }
+  
+  /* quizstepper.jsx */
+  .quiz-stepper {
+    padding: 20px;
+  }
+  
+  .quiz-stepper .progress {
+    margin-bottom: 20px;
+  }
+  
+  /* quizresult.jsx */
+  .quiz-result {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .quiz-result button {
+    margin-top: 20px;
+  }
+  
+  /* quiz.jsx */
+  .quiz {
+    padding: 20px;
+  }
+  
+  .quiz h3 {
+    color: #17a2b8;
+  }
+  
+  .quiz button {
+    margin-top: 20px;
+  }
+  
+  /* getallquiz.jsx */
+  .get-all-quiz h4 {
+    color: #17a2b8;
+  }
+  
+  .get-all-quiz .btn-group {
+    margin-top: 10px;
+  }
